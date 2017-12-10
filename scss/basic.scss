@@ -1,0 +1,209 @@
+
+@import "custom";
+@import "~bootstrap/scss/bootstrap";
+
+$margin-right: 23px;
+$margin-left: 40px;
+$margin-top: 50px;
+$margin-bottom: 50px;
+$dev-color: rgb(23, 23, 240); 
+
+@mixin developer($text-color){
+   font-style: italic;
+   font-size: medium;
+   //color: $text-color;
+   font-weight:bold;
+}
+
+
+body {
+    background-color: $primary-bg-color;
+    color: $primary-color;
+    font: 100% $font-stack;        
+}  
+.headline {
+    text-align: center;
+    margin-top: $margin-top;   
+    margin-bottom: $margin-bottom;       
+}
+.stacks{
+    margin-left: $margin-left;
+    margin-top: $margin-top;
+}
+.card {
+    margin-right: $margin-right;
+    margin-bottom: $margin-bottom;       
+}
+.card img{
+    height: 220px;
+}
+.developer {
+    @include developer($dev-color);
+}
+.developer a{
+    font-size:40px;
+}
+
+
+
+@media only screen and (min-width: 500px) {
+    /* For tablets: */
+    body {
+        background-color: $primary-bg-color;        
+    }
+    
+}
+@media only screen and (min-width: 1200px) {
+    /* For desktop: */
+    body {
+        background-color: $primary-bg-color;                
+    }
+}
+                      
+
+         /* Or, you can target specific devices using the correspondent media queriy below */
+                                
+                                   /***********************
+                                    * Smartphones Devices *
+                                    ***********************/
+/*
+/* Screens witgh smaller screens than iPhone 3 screen (portrait and landscape) ----------- */
+@media screen and (max-width : 320px) {
+/* code your styles below */
+
+}
+
+/* iPhone 3 and similar screen devices (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* code your styles below */
+
+}
+
+/*  iPhone 3 and similar screen devices (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* code your styles below */
+
+}
+
+
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* code your styles below */
+
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* code your styles below */
+
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* code your styles below */
+
+}
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* code your styles below */
+
+}
+
+/* iPhone 6 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){ 
+/* code your styles below */
+
+}
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* code your styles below */
+
+}
+
+/* iPhone 6+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* code your styles below */
+
+}
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* code your styles below */
+
+}
+
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* code your styles below */
+
+}
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* code your styles below */
+
+}
+
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* code your styles below */
+
+}
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* code your styles below */
+
+}
+
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* code your styles below */
+
+}
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* code your styles below */
+
+}
+
+
+                                    /***********************
+                                    * iPad Devices *
+                                    ***********************/
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* code your styles below */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* code your styles below */
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* code your styles below */
+
+}
+
+
+                                /***********************
+                                    * Desktop Devices *
+                                    ***********************/
+                            
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* code your styles below */
+
+}
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* code your styles below */
+
+}
+
+@media screen and (min-width: 1400px) {
+/* code your styles below */
+
+}
+@media screen and (min-width: 1600px) {
+/* code your styles below */
+
+}
+@media screen and (min-width: 1900px) {
+/* code your styles below */
+
+}
