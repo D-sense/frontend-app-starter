@@ -1,7 +1,7 @@
 {
   "name": "frontend-starter",
   "version": "1.0.0",
-  "description": "A simple frontend starter with Webpack, Twitter Bootstrap and well-defined CSS media queries.",
+  "description": "A simple frontend-app-starter with Webpack, Twitter Bootstrap and well-defined CSS media queries.",
   "main": "index.js",
   "scripts": {
     "test": "ERROR: No test specified!",
