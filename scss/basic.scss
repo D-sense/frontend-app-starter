@@ -34,9 +34,28 @@ body {
     margin-right: $margin-right;
     margin-bottom: $margin-bottom;       
 }
-.card img{
+div.webpack_img{
     height: 220px;
+    background-image: url('../image/webpack.png');
+    background-repeat: no-repeat;    
 }
+div.bootstrap_img{
+    height: 220px;
+    background-image: url('../image/Bootstrap.jpeg');
+    background-repeat: no-repeat;    
+}
+div.sass_img{
+    height: 220px;
+    background-image: url('../image/sass.png');
+    background-repeat: no-repeat;    
+}
+div.jquery_img{
+    height: 220px;
+    background-image: url('../image/jquery.png');
+    background-repeat: no-repeat;    
+}
+
+
 .developer {
     @include developer($dev-color);
 }

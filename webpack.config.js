@@ -1,5 +1,3 @@
-//import { read } from 'fs';
-
 const path = require ('path');
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const webpack = require('webpack');
@@ -22,6 +20,26 @@ module.exports = {
                     loader: 'image-webpack-loader',
                     options: {
                       bypassOnDebug: true,
+                      mozjpeg: {
+                        progressive: true,
+                        quality: 65
+                      },
+                      // optipng.enabled: false will disable optipng
+                      optipng: {
+                        enabled: false,
+                      },
+                      pngquant: {
+                        quality: '65-90',
+                        speed: 4
+                      },
+                      gifsicle: {
+                        interlaced: false,
+                      },
+                      // the webp option will enable WEBP
+                      webp: {
+                        quality: 75
+                      }
+              
                     },
                   },
                 ],
@@ -58,5 +76,10 @@ module.exports = {
             'window.jQuery': 'jquery',
             Popper: ['popper.js', 'default'],
           })
-    ]
+    ],
+    performance: {
+        maxAssetSize: 100,
+        maxEntrypointSize: 100,
+        hints: 'warning'
+      }
 };

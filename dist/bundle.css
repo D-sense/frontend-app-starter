@@ -5532,8 +5532,22 @@ body {
 .card {
   margin-right: 23px;
   margin-bottom: 50px; }
-.card img {
-  height: 220px; }
+div.webpack_img {
+  height: 220px;
+  background-image: url(006519a5539634eda359ed59c5686a76.png);
+  background-repeat: no-repeat; }
+div.bootstrap_img {
+  height: 220px;
+  background-image: url(fb132fb203c0d77931279020f7802f0a.jpeg);
+  background-repeat: no-repeat; }
+div.sass_img {
+  height: 220px;
+  background-image: url(488da0023eaac87de4241bb2e77b7e72.png);
+  background-repeat: no-repeat; }
+div.jquery_img {
+  height: 220px;
+  background-image: url(4a04195c49a04c7283db2e1c0b4b4f32.png);
+  background-repeat: no-repeat; }
 .developer {
   font-style: italic;
   font-size: medium;
