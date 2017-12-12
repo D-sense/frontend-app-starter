@@ -99,7 +99,7 @@ console.log("We are HERE!!");
 /* 2 */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed: ModuleBuildError: Module build failed: Error: spawn /Users/Oluwashola/webToolsProjects/frontend-starter/node_modules/mozjpeg/vendor/cjpeg ENOENT\n    at _errnoException (util.js:1024:11)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:192:19)\n    at onErrorNT (internal/child_process.js:374:16)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)\n    at runLoaders (/Users/Oluwashola/webToolsProjects/frontend-starter/node_modules/webpack/lib/NormalModule.js:195:19)\n    at /Users/Oluwashola/webToolsProjects/frontend-starter/node_modules/loader-runner/lib/LoaderRunner.js:364:11\n    at /Users/Oluwashola/webToolsProjects/frontend-starter/node_modules/loader-runner/lib/LoaderRunner.js:230:18\n    at context.callback (/Users/Oluwashola/webToolsProjects/frontend-starter/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at imagemin.buffer.then.catch.err (/Users/Oluwashola/webToolsProjects/frontend-starter/node_modules/image-webpack-loader/index.js:92:9)\n    at <anonymous>");
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 /* 3 */
