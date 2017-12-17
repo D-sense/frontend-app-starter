@@ -23,6 +23,9 @@ The stacks below have been installed for you. Get started building your app righ
 Simply fork this repo or use the manual download method:
 - Navigate to the folder where the repo is downloaded in and run `npm install`. Run `npm run build` for most changes (preferrably all) you make during your app development. Of course, you are free to submit PR for `watchmode` loader to automate the sass processing. Enjoy :)
 
+# Author
+Adeshina Hammed. H.[![Twitter](https://img.shields.io/twitter/url/https/github.com/openebs/openebs.svg?style=social&label=Follow)](https://twitter.com/Delameh)
+
 
 # License
 This project is an open-sourced software licensed under the MIT license.
