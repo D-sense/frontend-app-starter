@@ -1,6 +1,8 @@
 # Frontend-app-starter
 A simple frontend starter with Webpack, Twitter Bootstrap and well-defined CSS media queries.
 
+[![Made in Nigeria](https://img.shields.io/badge/made%20in-nigeria-008751.svg?style=flat-square)](https://github.com/acekyd/made-in-nigeria)
+
 Frontend-starter app bootstraps your frontend web developement: it is a simple yet rich and powerful modern frontend app starter. It is packed with Webpack, Twitter Bootstrap and well-defined CSS media queries. The stacks below have been installed for you. Get started building your app right away!
 
 ![Alt text](/image/webpack.png?raw=true "Stacks")
