@@ -5,11 +5,7 @@ A simple frontend starter with Webpack, Twitter Bootstrap and well-defined CSS m
 
 Frontend-starter app bootstraps your frontend web developement: it is a simple yet rich and powerful modern frontend app starter. It is packed with Webpack, Twitter Bootstrap and well-defined CSS media queries. The stacks below have been installed for you. Get started building your app right away!
 
-![Alt text](/image/webpack.png?raw=true "Stacks")
-![Alt text](/image/Bootstrap.jpeg?raw=true "Stacks")
-![Alt text](/image/sass.png?raw=true "Stacks")
-![Alt text](/image/jquery.png?raw=true "Stacks")
-
+![Alt text](/image/all.png?raw=true "Stacks")
 
 Frontend-starter app bootstraps your frontend web developement: it is a simple yet rich and powerful modern frontend app starter. It is packed with Webpack, Twitter Bootstrap and well-defined CSS media queries.
 
